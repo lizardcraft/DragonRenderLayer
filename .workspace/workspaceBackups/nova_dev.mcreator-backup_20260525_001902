@@ -1,0 +1,92 @@
+{
+  "mod_elements": [
+    {
+      "name": "Taildragon",
+      "type": "animatedarmor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taildragon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nova_dev/models/item/taildragon_chestplate.json",
+          "src/main/java/net/mcreator/novadev/item/TaildragonItem.java",
+          "src/main/java/net/mcreator/novadev/client/renderer/TaildragonArmorRenderer.java",
+          "src/main/java/net/mcreator/novadev/item/model/TaildragonModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Horn",
+      "type": "animatedarmor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/novadev/item/model/HornModel.java",
+          "src/main/java/net/mcreator/novadev/item/HornItem.java",
+          "src/main/java/net/mcreator/novadev/client/renderer/HornArmorRenderer.java",
+          "src/main/resources/assets/nova_dev/models/item/horn_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Tail",
+      "type": "animatedarmor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/novadev/client/renderer/TailArmorRenderer.java",
+          "src/main/java/net/mcreator/novadev/item/model/TailModel.java",
+          "src/main/java/net/mcreator/novadev/item/TailItem.java",
+          "src/main/resources/assets/nova_dev/models/item/tail_leggings.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.nova_dev.horn_chestplate": "Taildragon Chestplate",
+      "item.nova_dev.horn_leggings": "Taildragon Leggings",
+      "item.nova_dev.taildragon_boots": "Taildragon Boots",
+      "item.nova_dev.tail_leggings": "Taildragon Tail",
+      "item.nova_dev.horn_helmet": "Taildragon Horn",
+      "item.nova_dev.taildragon_leggings": "Taildragon Leggings",
+      "item.nova_dev.tail_helmet": "Taildragon Horn",
+      "item.nova_dev.horn_boots": "Taildragon Boots",
+      "item.nova_dev.taildragon_helmet": "Taildragon Helmet",
+      "item.nova_dev.tail_chestplate": "Taildragon Chestplate",
+      "item.nova_dev.taildragon_chestplate": "Taildragon Chestplate",
+      "item.nova_dev.tail_boots": "Taildragon Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nova_dev",
+    "modName": "Nova_Dev",
+    "version": "1.0.0",
+    "author": "prady, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.novadev"
+  },
+  "mcreatorVersion": 202400452410
+}

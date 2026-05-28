@@ -1,0 +1,6 @@
+{
+  "parent": "celestialdragon:displaysettings/displayclaws",
+  "textures": {
+    "layer0": "celestialdragon:item/claw"
+  }
+}
