@@ -4,7 +4,7 @@ plugins {
 }
 
 version = '1.0'
-group = 'net.novadevlayer'
+group = 'celestialdragon'
 archivesBaseName = 'celestialdragon'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)

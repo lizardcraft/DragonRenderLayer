@@ -46,7 +46,7 @@ public class RenderArmEventHandler {
 
         player.getCapability(DragonStateProvider.DRAGON_STATE).ifPresent(state -> {
             if (state.isClawsActive()) {
-                //event.setCanceled(true);
+                event.setCanceled(true);
 
                 PoseStack poseStack = event.getPoseStack();
                 MultiBufferSource bufferSource = event.getMultiBufferSource();
